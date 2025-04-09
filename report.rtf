@@ -1,0 +1,96 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2821
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 TimesNewRomanPSMT;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red109\green109\blue109;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c50196\c50196\c50196;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid2\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid4}
+{\list\listtemplateid5\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid401\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid5}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab560
+\pard\pardeftab560\sa40\partightenfactor0
+
+\f0\fs32 \cf0 Nmap Scan Summary Report\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 \
+\pard\pardeftab560\sa40\partightenfactor0
+\cf0 1. Service & Version Detection\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 \
+Command Used:\
+            \'93nmap -sV {\field{\*\fldinst{HYPERLINK "http://scanme.nmap.org"}}{\fldrslt scanme.nmap.org}}\'94\
+\
+Findings:\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf0  Open Ports:\
+\pard\tx220\tx720\pardeftab560\li720\fi-720\slleading20\partightenfactor0
+\ls1\ilvl0\cf0 {\listtext	\uc0\u8226 	}22/tcp: SSH - OpenSSH 6.6.1p1 (Ubuntu Linux)\
+{\listtext	\uc0\u8226 	}80/tcp: HTTP - Apache httpd 2.4.7 (Ubuntu)\
+{\listtext	\uc0\u8226 	}587/tcp: Submission (email service)\
+{\listtext	\uc0\u8226 	}9929/tcp: Nping Echo\
+{\listtext	\uc0\u8226 	}31337/tcp: tcp wrapped ( it is possible service protected)\
+{\listtext	\uc0\u8226 	}\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf0  System Info:\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls1\ilvl1\cf0 {\listtext	\uc0\u8226 	}OS: Linux\
+{\listtext	\uc0\u8226 	}CPE: cpe:/o:linux:linux_kernel\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 \
+\pard\pardeftab560\sa40\partightenfactor0
+\cf0 2. Intensive Version Detection\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 \
+Command Used:\
+             \'93nmap -sV --version-intensity 9 {\field{\*\fldinst{HYPERLINK "http://scanme.nmap.org"}}{\fldrslt scanme.nmap.org}}\'94\
+\
+Findings:\
+\pard\tx220\tx720\pardeftab560\li720\fi-720\slleading20\partightenfactor0
+\ls2\ilvl0\cf0 {\listtext	\uc0\u8226 	}It confirmed  it was the same open ports and services as above.\
+{\listtext	\uc0\u8226 	}Provided higher confidence in service versions:\
+{\listtext	\uc0\u8226 	}OpenSSH 6.6.1p1\
+{\listtext	\uc0\u8226 	}Apache httpd 2.4.7\
+{\listtext	\uc0\u8226 	}Nping Echo service\
+{\listtext	\uc0\u8226 	}It was a slightly more detailed analysis than the basic -sV command.\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 \
+\pard\pardeftab560\sa40\partightenfactor0
+\cf0 3. Operating System Detection\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 \
+Command Used:\
+            \'93nmap -O {\field{\*\fldinst{HYPERLINK "http://scanme.nmap.org"}}{\fldrslt scanme.nmap.org}}\'94\
+\
+Findings:\
+ OS Guess:\
+\pard\tx220\tx720\pardeftab560\li720\fi-720\slleading20\partightenfactor0
+\ls3\ilvl0\cf0 {\listtext	\uc0\u8226 	}Most likely: Linux 2.4.X/3.X (89% accuracy)\
+{\listtext	\uc0\u8226 	}Other possible systems: Actiontec embedded OS, Microsoft Windows XP SP3/2012\
+{\listtext	\uc0\u8226 	}Device Type: General purpose WAP\
+{\listtext	\uc0\u8226 	}Network Distance: 22 hops (number of network devices between you and the target)\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 \
+\pard\pardeftab560\sa40\partightenfactor0
+\cf0 Conclusion\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls4\ilvl0\cf0 {\listtext	\uc0\u8226 	}The scanned server is running Linux and hosts standard open services like SSH and Apache HTTP.\
+{\listtext	\uc0\u8226 	}Nmap effectively identified service versions and gave good OS fingerprinting.\
+{\listtext	\uc0\u8226 	}Target domain scanme.nmap.org is safe and provided by the Nmap team for practice purposes.\
+\pard\pardeftab720\sa240\partightenfactor0
+\cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \
+All scans were performed using the official Nmap testing domain, scanme.nmap.org, in an ethical and legal manner for educational purposes.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \
+\pard\pardeftab720\sa298\partightenfactor0
+\cf0 \strokec2  Ethical Considerations\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls5\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 The scan was conducted on a publicly accessible and authorized test domain.\
+\ls5\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Always ensure you have explicit permission before scanning other websites or networks to avoid legal issues.\
+\pard\pardeftab720\sa240\partightenfactor0
+\cf0 This report is part of my portfolio to demonstrate my skills in network scanning, vulnerability assessment, and security analysis.\
+}
