@@ -24,5 +24,5 @@ This project demonstrates how to use **Nmap** for network reconnaissance and sec
 ---
 
 ## Detailed Report
-Please refer to the [report.md](report.md) file for detailed findings and analysis.
+Please refer to the [report.md](report.rtf) file for detailed findings and analysis.
 
